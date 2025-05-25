@@ -11,6 +11,10 @@ In this project, let's build a **Nxt Trendz - Cart Features** by applying the co
 </div>
 <br/>
 
+### User Credentials:
+username: rahul
+password: rahul@2021
+
 ### Design Files
 
 <details>
