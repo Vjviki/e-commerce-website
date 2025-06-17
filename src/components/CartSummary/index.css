@@ -58,14 +58,48 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 767px) {
-  .d-sm-none {
-    display: none;
-  }
+
+.popup-box {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
 }
 
-@media screen and (min-width: 768px) {
-  .d-lg-none {
-    display: none;
-  }
+.popup-box h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.popup-box label {
+  display: block;
+  margin: 6px 0;
+}
+
+.popup-summary {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.confirm-order-button,
+.close-popup {
+  margin-top: 12px;
+  margin-right: 10px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  background-color: #0a7cff;
+  color: white;
+  cursor: pointer;
+}
+
+.confirm-order-button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.order-success {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: green;
 }
